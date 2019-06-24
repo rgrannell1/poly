@@ -53,7 +53,7 @@ fn main() {
   let now = Instant::now();
 
   loop {
-    let eigens = solve_companion_matrix(to_mixed_radix(vec![50, 50, 50, 50], 7), solved);
+    let eigens = solve_companion_matrix(to_mixed_radix(vec![50, 50, 50, 50], solved), 25);
 
     if solved > 1000 && solved % 10000 == 0 {
     let seconds_elapsed = now.elapsed().as_secs();

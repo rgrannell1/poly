@@ -1,0 +1,9 @@
+[package]
+
+name = "poly"
+version = "0.0.1"
+authors = [ "Róisín Grannell <r.grannell2@gmail.com>" ]
+
+[dependencies]
+nalgebra = "0.18"
+log = "0.4.6"
